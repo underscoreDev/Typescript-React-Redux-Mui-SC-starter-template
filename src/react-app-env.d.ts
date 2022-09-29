@@ -1,4 +1,3 @@
-import { CSSProp } from "styled-components";
 /// <reference types="react-scripts" />
 /// <reference types="node" />
 /// <reference types="react" />
@@ -43,12 +42,4 @@ declare module "*.svg" {
 
   const src: string;
   export default src;
-}
-
-interface MyTheme {} // declare custom theme type
-
-declare module "react" {
-  interface Attributes {
-    css?: CSSProp<MyTheme>;
-  }
 }

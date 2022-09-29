@@ -1,9 +1,5 @@
 import React from "react";
-import { css } from "styled-components/macro";
-
-export const landingCss = css`
-  color: yellow;
-`;
+import { landingCss } from "app/modules/landing-module/style";
 
 export const LandingLayout = () => {
   return (

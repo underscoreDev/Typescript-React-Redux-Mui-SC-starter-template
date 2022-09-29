@@ -14,9 +14,7 @@ const NoMatchPage = () => (
   <Box css={noMatchContainerCss}>
     <h1 css={oppsCss}>Oops! Page not found</h1>
     <h2 css={fourOfourCss}>404</h2>
-    <h3 css={notFoundText}>
-      We are sorry, but the page you requested was not found
-    </h3>
+    <h3 css={notFoundText}>We are sorry, but the page you requested was not found</h3>
     <Link to="/">
       <Box css={backToHomeCss}>
         <p css={backToHomeText}>Back to Home Page</p>

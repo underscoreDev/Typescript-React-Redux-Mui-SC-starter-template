@@ -4,15 +4,12 @@ import { css } from "styled-components/macro";
 
 export const appcss = css`
   color: red;
+  font-size: 3rem;
 `;
 
 export const AppBar = () => {
   return (
-    <Box
-      css={`
-        color: red;
-      `}
-    >
+    <Box css={appcss}>
       <h1>App Bar</h1>
     </Box>
   );
